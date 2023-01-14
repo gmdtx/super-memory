@@ -2,12 +2,15 @@
 name = "super-memory"
 version = "0.1.0"
 description = ""
-authors = ["Guilherme Yoshida <gui.yoshida@superluminal.com.br>"]
+authors = ["Guilherme Yoshida Teixeira <contact@gyt.app>"]
 readme = "README.md"
 packages = [{include = "super_memory"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+fastapi = "^0.89.1"
+httpx = "^0.23.3"
+pytest = "^7.2.1"
 
 
 [build-system]

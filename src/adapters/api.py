@@ -1,9 +1,9 @@
 from fastapi import APIRouter, HTTPException, Depends
 
-from src.entity.item import Item
-from src.exception.item_not_found_error import ItemNotFoundError
-from src.service.item_service import item_service
-from src.usecase.item_usecase import ItemUseCases
+from src.entities.item import Item
+from src.exceptions.item_not_found_error import ItemNotFoundError
+from src.services.item_service import item_service
+from src.usecases.item_usecase import ItemUseCases
 
 router = APIRouter()
 

@@ -1,6 +1,6 @@
 from typing import Dict
 
-from src.repository.item_repository import ItemRepository
+from src.repositories.item_repository import ItemRepository
 
 
 class ItemUseCases:

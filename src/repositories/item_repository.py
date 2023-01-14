@@ -1,6 +1,6 @@
 from typing import Dict
 
-from src.exception.item_not_found_error import ItemNotFoundError
+from src.exceptions.item_not_found_error import ItemNotFoundError
 
 
 class ItemRepository:

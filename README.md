@@ -1,8 +1,8 @@
-            +---------------+   +---------------+   +---------------+   +---------------+
-            |               |   |               |   |               |   |               |
-            |    Entities   |<--|   Use Cases   |<--|   Interface   |<--|   Frameworks  |
-            |               |   |               |   |               |   |               |
-            +---------------+   +---------------+   +---------------+   +---------------+
+                +---------------+   +---------------+   +---------------+   +---------------+
+                |               |   |               |   |               |   |               |
+                |    Entities   |<--|   Use Cases   |<--|   Interface   |<--|   Frameworks  |
+                |               |   |               |   |               |   |               |
+                +---------------+   +---------------+   +---------------+   +---------------+
 
 Clean Architecture is an architectural pattern that separates the concerns of an application into different layers. The main goal of this pattern is to make the code more maintainable, testable and scalable. The architecture is divided into different layers:
 

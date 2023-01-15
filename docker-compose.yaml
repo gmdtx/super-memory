@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  app:
+    container_name: app
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    environment:
+      PYTHONUNBUFFERED: "true"
+
+volumes:
+  app_data: {}

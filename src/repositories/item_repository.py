@@ -16,7 +16,7 @@ class ItemRepository:
 
     def create_item(self, item: Dict) -> Dict:
         self.last_id += 1
-        item['id'] = self.last_id
+        item["id"] = self.last_id
         self.items[self.last_id] = item
         return item
 

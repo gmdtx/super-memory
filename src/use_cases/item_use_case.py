@@ -1,6 +1,6 @@
 from typing import Dict
 
-from src.repositories.item_repository import ItemRepository
+from src.repositories.item_repository import ItemRepository, item_repository
 
 
 class ItemUseCases:
@@ -12,3 +12,6 @@ class ItemUseCases:
 
     def create_item(self, item: Dict) -> Dict:
         return self.repository.create_item(item)
+
+
+item_use_case = ItemUseCases(item_repository)

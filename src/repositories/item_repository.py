@@ -19,3 +19,6 @@ class ItemRepository:
         item['id'] = self.last_id
         self.items[self.last_id] = item
         return item
+
+
+item_repository = ItemRepository()

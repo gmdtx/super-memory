@@ -5,7 +5,6 @@ from src.entities.item import Item
 
 
 class TestItem(unittest.TestCase):
-
     def test_create_item(self):
         with patch("src.entities.item.Item") as mocked_item:
             instance = mocked_item.return_value
